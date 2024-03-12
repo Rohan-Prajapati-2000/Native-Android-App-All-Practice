@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Broadcast Image Receiver</string>
+    <string name="text"> action android:name=android.intent.action.SEND
+        category android:name=android.intent.category.DEFAULT
+        data android:mimeType=image//* insert in manifest
+    </string>
+</resources>

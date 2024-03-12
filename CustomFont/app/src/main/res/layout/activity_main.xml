@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FA0000"
+        android:gravity="center"
+        android:hint="English"
+        android:text="@string/english"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#fff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvHindi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#224FD1"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Hindi"
+        android:inputType="text"
+        android:text="@string/hindi"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#fff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvFrench"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#00FF00"
+        android:gravity="center"
+        android:hint="French"
+        android:text="@string/french"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#fff"
+        android:textSize="24sp" />
+</LinearLayout>

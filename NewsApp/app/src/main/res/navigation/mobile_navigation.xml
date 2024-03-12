@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_bbc">
+
+    <fragment
+        android:id="@+id/nav_bbc"
+        android:name="com.example.newsapp.ui.bbc.HomeFragment"
+        android:label="BBC"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_news24"
+        android:name="com.example.newsapp.ui.news24.GalleryFragment"
+        android:label="NEWS24"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_aajtak"
+        android:name="com.example.newsapp.ui.aajtak.SlideshowFragment"
+        android:label="AAJ TAK"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_zeenews"
+        android:name="com.example.newsapp.Fragment.zeenews"
+        android:label="ZEE NEWS"
+        tools:layout="@layout/zee_news" />
+</navigation>

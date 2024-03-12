@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">layout</string>
+    <string name="naruto">Naruto Uzumaki</string>
+    <string name="sasuke">Sasuke Uchiha</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CalculatorApp</string>
+    <string name="plus">+</string>
+    <string name="multiply">*</string>
+    <string name="equalstoo">=</string>
+    <string name="divide">/</string>
+    <string name="subtract">-</string>
+</resources>

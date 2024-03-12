@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DynamicFragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">No Chat Available</string>
+    <string name="status">No Status Available</string>
+    <string name="call">No Call Available</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WhatsappSwipeTab" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#0E4E10</item>i
+        <item name="colorPrimaryDark">#000000</item>        // for status bar color
+<!--         <item name="colorPrimaryVariant">#03FF0E</item>-->
+    </style>
+
+    <style name="Theme.WhatsappSwipeTab" parent="Base.Theme.WhatsappSwipeTab"/>
+</resources>
